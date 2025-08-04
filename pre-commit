@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if grep -q "TODO" myfile.txt; then
+        echo "Please remove TODO"
+        exit 1
+fi
